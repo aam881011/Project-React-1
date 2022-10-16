@@ -1,0 +1,29 @@
+.headSlider {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  h2 {
+    color: #011a3e;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+.slidy {
+  margin-top: 100px;
+  width: 100%;
+  img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin: auto;
+  }
+  .text {
+    h5,
+    p {
+      text-align: center;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+  }
+}

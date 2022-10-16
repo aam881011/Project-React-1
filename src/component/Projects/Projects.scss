@@ -1,0 +1,31 @@
+.head-project {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  h2 {
+    color: #011a3e;
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+
+.navProject {
+  text-align: center;
+  a {
+    padding: 10px 20px;
+    // margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    &:hover {
+      border: 0.5px solid rgb(33, 32, 32);
+    }
+    &:active {
+      box-shadow: 4px 6.928px 15px #feb00066;
+      padding: 8px 25px;
+      color: #fff !important;
+      border-radius: 30px;
+      background-color: #feb000 !important;
+    }
+  }
+}

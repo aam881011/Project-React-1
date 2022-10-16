@@ -1,0 +1,54 @@
+.pricing {
+  padding: 70px 0;
+  .headPrice {
+    text-align: center;
+    h2 {
+      font-size: 45px;
+      font-weight: 700;
+    }
+  }
+  .boxesPrice {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 20px;
+    margin-top: 50px;
+    .boxPrice {
+      border: 1px solid rgb(203, 190, 190);
+      border-radius: 10px;
+      box-shadow: 2.5px 4.33px 15px #00000026;
+      padding: 20px;
+      text-align: center;
+      &:hover {
+        border: 3px dotted rgb(175, 92, 4);
+      }
+      h2 {
+        font-weight: 700;
+        color: #011a3e;
+        margin-top: 20px;
+      }
+      p {
+        margin-top: 30px;
+        padding: 0 70px;
+        line-height: 30px;
+      }
+      h3 {
+        color: #011a3e;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      button {
+        height: 45px;
+        color: #fff;
+        min-width: 158px;
+        text-align: center;
+        background: #feb000;
+        line-height: 45px;
+        border-radius: 23px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+        margin-top: 20px;
+      }
+    }
+  }
+}

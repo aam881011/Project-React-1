@@ -1,0 +1,27 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  // gap: 20px;
+  padding: 60px 0px;
+  img {
+    max-width: 100%;
+  }
+  .aboutCont {
+    margin-top: 105px;
+    padding-left: 35px;
+    h2 {
+      color: #011a3e;
+      font-size: 45px !important;
+      font-weight: 700 !important;
+      margin-bottom: 40px;
+    }
+    button {
+      background-color: #feb000;
+      padding: 10px 30px;
+      border-radius: 30px;
+      margin-top: 40px;
+      border: none;
+      color: white;
+    }
+  }
+}

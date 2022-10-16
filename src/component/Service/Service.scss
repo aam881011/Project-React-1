@@ -1,0 +1,59 @@
+.services {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding: 25px 0px;
+  overflow: hidden;
+  .boxesServ {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    .itembox {
+      text-align: center;
+      background-color: #fff;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-top: 15px;
+      overflow: hidden;
+      height: auto;
+      &:hover {
+        border: 2px dotted rgb(214, 204, 11);
+        border-radius: 10px;
+        box-shadow: 2.5px 4.33px 15px #00000026;
+      }
+      img {
+        max-width: 100%;
+        margin: 10px 0px;
+      }
+      h3 {
+        color: #0d2547;
+        font-size: 20px;
+        margin: 15px 0px;
+        text-transform: uppercase;
+      }
+      p {
+        color: #777;
+        line-height: 32px;
+        font-size: 16px;
+      }
+      a {
+        color: #0d2547;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 10px 0px;
+      }
+      i {
+        color: #feb000;
+        margin-right: 15px;
+      }
+    }
+  }
+  h2 {
+    color: #0d2547;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px 0px;
+    letter-spacing: 1px;
+  }
+}

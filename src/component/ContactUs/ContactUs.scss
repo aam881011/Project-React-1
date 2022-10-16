@@ -1,0 +1,81 @@
+.contactUs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 80px 0px;
+  gap: 0px 90px;
+  img {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .rightContact {
+    .head {
+      text-align: start;
+      h2 {
+        font-size: 45px;
+        font-weight: 700;
+        color: #011a3e;
+        margin-bottom: 14px;
+      }
+      p {
+        margin-top: 20px;
+      }
+    }
+    .inputs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px 20px;
+      .input1 {
+        input {
+          margin-top: 30px;
+          border-radius: 30px;
+          padding: 10px;
+          width: 100%;
+          height: 45px;
+          background: #fff;
+          padding-left: 20px;
+          box-shadow: 2.5px 4.33px 15px #00000026;
+          border: none;
+          outline: none;
+        }
+      }
+      .input2 {
+        // margin-left: 20px;
+      }
+    }
+    .area {
+      textarea {
+        border-radius: 30px;
+        width: 100%;
+        min-height: 145px;
+        height: 45px;
+        padding-left: 20px;
+        padding: 10px;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+        background: #fff;
+        box-shadow: 2.5px 4.33px 15px #00000026;
+        margin-top: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+      }
+    }
+    button {
+      min-width: 170px;
+      height: 45px;
+      color: #fff;
+      text-align: center;
+      background: #feb000;
+      line-height: 45px;
+      border-radius: 23px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: 0.5s;
+      outline: none;
+      border: none;
+      margin-top: 30px;
+    }
+  }
+}
